@@ -1,0 +1,1106 @@
+:root {
+  --pink: #ff008a;
+  --light-pink: #feebf5;
+  --pinkish: var(--white);
+  --white: white;
+  --black: black;
+}
+
+.home-screen {
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 40px 120px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame {
+  border: 1px solid #fff;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.inner-frame {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  grid-column-gap: 47px;
+  grid-row-gap: 47px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 0;
+  display: flex;
+  position: static;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.kittenmilk-logo {
+  width: 300px;
+}
+
+.dogica-small {
+  color: #fff;
+  letter-spacing: -3px;
+  font-family: Dogica, sans-serif;
+  font-size: 12px;
+}
+
+.dogica-small.blk {
+  color: #000;
+  letter-spacing: -2px;
+  -webkit-text-stroke-color: #000;
+}
+
+.background-video {
+  height: 100%;
+}
+
+.background {
+  background-image: linear-gradient(rgba(255, 0, 139, .19), rgba(255, 0, 139, .19)), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 100% 105%;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.run-program {
+  flex-direction: column;
+  flex: none;
+  order: 0;
+  align-items: center;
+  display: flex;
+}
+
+.program-wrapper {
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.program-wrapper:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  align-self: center;
+  width: 90%;
+}
+
+.name.dogica-small.blk {
+  color: #000;
+}
+
+.image {
+  width: 64px;
+  display: block;
+  transform: rotate(0);
+}
+
+.salon-image {
+  width: 55px;
+  padding-bottom: 5px;
+}
+
+.booking-image {
+  transform: rotate(31deg);
+}
+
+.message-board-image {
+  width: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.mini-windows {
+  flex: 1;
+  position: relative;
+}
+
+.book-now {
+  border: 2px solid var(--pink);
+  background-color: #ffecec;
+  width: 300px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+  position: absolute;
+  top: 10%;
+  bottom: auto;
+  left: 2%;
+  right: auto;
+}
+
+.window-name-bar {
+  border-style: none none solid;
+  border-width: 2px;
+  border-color: var(--pink);
+  align-items: center;
+  height: 30px;
+  display: flex;
+}
+
+.exit-button {
+  border-right: 2px solid var(--pink);
+  cursor: pointer;
+  background-image: url('../images/x.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.text-block {
+  color: var(--pink);
+  padding-top: 5px;
+  padding-left: 5px;
+  font-family: Dogica, sans-serif;
+  font-weight: 700;
+}
+
+.image-2 {
+  cursor: pointer;
+  max-width: 90%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.image-3 {
+  mix-blend-mode: difference;
+  position: absolute;
+  top: -51%;
+  bottom: auto;
+  left: auto;
+  right: -22%;
+}
+
+.salon-mini-window {
+  border: 2px solid var(--pink);
+  background-image: linear-gradient(rgba(255, 255, 255, .76), rgba(255, 255, 255, .76)), url('../images/flowers-leaves.gif');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  width: 400px;
+  height: auto;
+  margin-top: 0;
+  margin-left: 0;
+  padding-bottom: 20px;
+  position: absolute;
+  top: auto;
+  bottom: 14%;
+  left: 11%;
+  right: auto;
+}
+
+.image-4 {
+  margin: 10px;
+}
+
+.div-block-2 {
+  border: 1px solid var(--pink);
+  background-image: url('../images/jaylei035162-r1-028-copy_1.webp');
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 20px 10px 10px;
+  display: flex;
+}
+
+.div-block-2:hover {
+  background-image: url('../images/fooly-cooly-flcl.gif');
+}
+
+.text-block-2 {
+  font-family: Dogica, sans-serif;
+}
+
+.text-block-2.dogica-small.blk {
+  color: var(--pink);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.messages {
+  border: 2px solid var(--pink);
+  background-color: var(--pinkish);
+  background-image: linear-gradient(#ffecec, #ffecec);
+  width: 400px;
+  height: auto;
+  max-height: 500px;
+  padding-bottom: 40px;
+  display: none;
+  position: absolute;
+  top: 10%;
+  bottom: auto;
+  left: auto;
+  right: 2%;
+}
+
+.text-block-3 {
+  color: var(--pink);
+  letter-spacing: -2px;
+  font-family: Dogica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.text-block-4 {
+  letter-spacing: -1px;
+  font-family: Dogica, sans-serif;
+  font-size: 10px;
+}
+
+.div-block-3 {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile {
+  border: 3px solid var(--pink);
+  cursor: pointer;
+  background-image: linear-gradient(rgba(224, 0, 116, .37), rgba(224, 0, 116, .37)), url('../images/dg5atch-900fcdd9-f0c9-4f05-897d-0f228292175d.gif');
+  background-position: 0 0, 50% 91%;
+  background-size: auto, cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 325px;
+  height: 80px;
+  padding-left: 10px;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: 3%;
+  left: auto;
+  right: 3%;
+}
+
+.text-block-5 {
+  color: #fff;
+  font-family: Dogica, sans-serif;
+  font-weight: 700;
+}
+
+.text-block-6 {
+  color: #fff;
+  font-family: Dogica, sans-serif;
+  text-decoration: underline;
+}
+
+.kirby {
+  background-image: url('../images/kirby-dance-kirby.gif');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 150px;
+  height: 150px;
+  padding-right: 0;
+  display: none;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.div-block-4 {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.window-wrapper {
+  z-index: 99;
+  border: 2px solid var(--pink);
+  background-color: var(--light-pink);
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+}
+
+.window-wrapper.salon-window {
+  display: none;
+}
+
+.window-wrapper.booking-window {
+  height: 73vh;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.window-wrapper.about-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/tumblr_39436902cd65290563f39ce4024001fd_7b2cc3a8_540.gif');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.window-wrapper.gallery-wrapper {
+  display: none;
+}
+
+.window-wrapper.announcements-wrapper {
+  display: none;
+  position: absolute;
+}
+
+.window-title-bbar {
+  border-style: none none solid;
+  border-width: 2px;
+  border-color: var(--pink);
+  align-items: center;
+  height: 40px;
+  display: flex;
+}
+
+.div-block-5 {
+  border-right: 2px solid var(--pink);
+  cursor: pointer;
+  background-image: url('../images/x.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.div-block-5.pink-exit-button-mod {
+  background-image: url('../images/pink-x.webp');
+}
+
+.text-block-7 {
+  padding-left: 10px;
+  font-family: Dogica, sans-serif;
+  font-weight: 700;
+}
+
+.text-block-7.about-title {
+  color: var(--pink);
+}
+
+.window-big-text {
+  color: var(--pink);
+  width: 75%;
+  padding-top: 0;
+  padding-left: 0;
+  font-family: Alagard, sans-serif;
+  font-size: 72px;
+  line-height: 53px;
+}
+
+.window-big-text.booking-mod {
+  text-align: left;
+}
+
+.window-scroll-box {
+  height: 100%;
+  padding: 40px 40px 100px;
+  position: relative;
+  overflow: scroll;
+}
+
+.salon-pics {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 28px;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+
+.image-5 {
+  flex: none;
+  width: 50%;
+}
+
+.image-6, .image-7 {
+  flex: 1;
+}
+
+.text-block-8 {
+  letter-spacing: -2px;
+  width: 75%;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Dogica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text-block-8.about-text {
+  color: #fff;
+  width: 75%;
+}
+
+.text-block-8.gallery-text {
+  color: var(--pink);
+  width: 65%;
+  margin-bottom: 100px;
+}
+
+.text-block-8.announcements-text {
+  color: var(--pink);
+  width: 75%;
+}
+
+.div-block-6 {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.image-8 {
+  flex: none;
+}
+
+.image-9 {
+  flex: 0 auto;
+}
+
+.gallery-row {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.gallery-img {
+  border: 1px solid var(--pink);
+  flex: 1;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.text-span {
+  text-decoration: underline;
+}
+
+.image-10 {
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: -2%;
+  transform: rotate(23deg);
+}
+
+.announcement-link {
+  color: var(--pink);
+  font-family: DogicaPixel, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.announcement-plain-text {
+  font-family: DogicaPixel, sans-serif;
+}
+
+.announcement-post {
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image-11 {
+  margin-top: 10px;
+  display: none;
+}
+
+.image-12 {
+  position: absolute;
+  top: auto;
+  bottom: 4%;
+  left: auto;
+  right: 3%;
+}
+
+.text-span-2 {
+  font-size: 20px;
+}
+
+.bold-text {
+  font-size: 19px;
+}
+
+.text-span-3 {
+  font-size: 20px;
+}
+
+.image-13 {
+  display: none;
+}
+
+.link {
+  color: var(--pink);
+}
+
+.image-14 {
+  width: 75%;
+  margin-top: 40px;
+}
+
+.link-2 {
+  color: var(--pink);
+}
+
+.div-block-7 {
+  background-image: url('../images/parappa-the.gif');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.program-name {
+  text-align: center;
+  font-family: DogicaPixel, sans-serif;
+  font-size: 12px;
+}
+
+.link-3 {
+  color: var(--pink);
+}
+
+.link-4 {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+.link-5, .link-6 {
+  color: var(--pink);
+}
+
+.text-block-9 {
+  color: var(--white);
+  text-align: center;
+  font-family: DogicaPixel, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 90px;
+  position: absolute;
+  top: 22%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.text-block-10 {
+  color: var(--pinkish);
+  text-align: center;
+  font-family: DogicaPixel, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.image-15 {
+  position: absolute;
+  top: 51%;
+  bottom: auto;
+  left: auto;
+  right: 18%;
+}
+
+.text-span-4 {
+  color: var(--black);
+}
+
+.text-block-11 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: DogicaPixel, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.link-7 {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.link-7:hover {
+  text-decoration: underline;
+}
+
+.bold-text-2 {
+  text-transform: lowercase;
+}
+
+.image-16 {
+  flex: 1;
+}
+
+.image-17 {
+  flex: none;
+  width: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .frame {
+    max-width: 800px;
+  }
+
+  .salon-mini-window {
+    bottom: 19%;
+  }
+
+  .window-wrapper.salon-window {
+    padding-bottom: 100px;
+  }
+
+  .window-wrapper.booking-window {
+    padding-bottom: 40px;
+  }
+
+  .window-scroll-box {
+    padding: 20px;
+  }
+
+  .image-7 {
+    display: none;
+  }
+
+  .text-block-8 {
+    margin-top: 40px;
+  }
+
+  .text-block-8.gallery-text {
+    margin-bottom: 40px;
+  }
+
+  .image-8 {
+    margin-top: 40px;
+  }
+
+  .image-9 {
+    display: none;
+  }
+
+  .image-12 {
+    bottom: 0%;
+    right: -4%;
+  }
+
+  .image-15 {
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-screen {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .frame {
+    border-style: none;
+    padding: 0;
+  }
+
+  .inner-frame {
+    border-width: 4px;
+    border-color: var(--pink);
+  }
+
+  .background {
+    background-image: linear-gradient(rgba(255, 0, 221, .19), rgba(255, 0, 221, .19)), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .run-program {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .mini-windows {
+    flex: 0 auto;
+    order: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .book-now {
+    width: 100%;
+    height: auto;
+    margin-top: 26px;
+    padding-bottom: 9px;
+    position: static;
+  }
+
+  .image-3 {
+    mix-blend-mode: screen;
+    top: -23%;
+    right: -4%;
+  }
+
+  .salon-mini-window {
+    display: none;
+  }
+
+  .window-big-text.booking-mod {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .window-scroll-box {
+    padding: 40px 20px;
+  }
+
+  .text-block-8 {
+    margin-top: 20px;
+  }
+
+  .image-9, .image-13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .home-screen {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 10px;
+    display: flex;
+  }
+
+  .frame {
+    flex: 1;
+    align-self: auto;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: 5%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .inner-frame {
+    height: 93%;
+  }
+
+  .logo {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-direction: column;
+    flex: none;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: 2%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+  }
+
+  .kittenmilk-logo {
+    padding: 0;
+  }
+
+  .dogica-small, .dogica-small.hide {
+    display: none;
+  }
+
+  .background {
+    box-shadow: none;
+  }
+
+  .run-program {
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .program-wrapper {
+    padding: 10px;
+  }
+
+  .mini-windows {
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+    position: absolute;
+    top: auto;
+    bottom: 35%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .book-now {
+    background-color: var(--light-pink);
+    width: 95%;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .text-block {
+    padding-left: 0;
+  }
+
+  .image-2 {
+    padding-top: 10px;
+  }
+
+  .image-3 {
+    mix-blend-mode: exclusion;
+    top: -62%;
+    right: -12%;
+  }
+
+  .profile {
+    border-width: 2px;
+    order: 1;
+    align-items: flex-start;
+    width: 95%;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: auto;
+    bottom: 2%;
+    left: -1%;
+    right: 0%;
+  }
+
+  .window-wrapper.salon-window {
+    width: 95%;
+    height: 95%;
+    padding-bottom: 60px;
+  }
+
+  .window-wrapper.booking-window {
+    width: 95%;
+    height: 63vh;
+    display: none;
+  }
+
+  .window-wrapper.about-wrapper {
+    height: 85%;
+    padding-bottom: 40px;
+    display: none;
+  }
+
+  .text-block-7.about-title {
+    color: var(--pink);
+  }
+
+  .window-big-text {
+    margin-top: 10px;
+    font-size: 49px;
+  }
+
+  .window-big-text.booking-mod {
+    font-size: 60px;
+  }
+
+  .window-scroll-box {
+    padding: 10px 10px 60px;
+  }
+
+  .salon-pics {
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .image-5 {
+    object-fit: cover;
+    width: 100%;
+    height: 317px;
+  }
+
+  .image-6 {
+    display: none;
+  }
+
+  .text-block-8 {
+    overflow-wrap: anywhere;
+    object-fit: fill;
+    width: 100%;
+    margin-top: -11px;
+  }
+
+  .text-block-8.about-text {
+    width: 100%;
+  }
+
+  .text-block-8.gallery-text {
+    width: 85%;
+  }
+
+  .text-block-8.announcements-text {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .image-8 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .gallery-row {
+    flex-direction: column;
+  }
+
+  .announcement-plain-text {
+    z-index: 1;
+    position: relative;
+  }
+
+  .announcement-post {
+    width: 90%;
+  }
+
+  .image-12 {
+    width: 100px;
+  }
+
+  .link-block {
+    order: -1;
+  }
+
+  .link-2 {
+    color: var(--pink);
+  }
+
+  .div-block-7 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .text-block-9 {
+    color: var(--pinkish);
+    text-align: center;
+    align-self: center;
+    font-family: DogicaPixel, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 61px;
+    position: absolute;
+    top: 8%;
+  }
+
+  .image-15 {
+    width: 35%;
+    position: absolute;
+    top: auto;
+    bottom: 15%;
+    left: auto;
+    right: 0%;
+  }
+
+  .image-17 {
+    width: 100%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Alagard';
+  src: url('../fonts/alagard.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DogicaPixel';
+  src: url('../fonts/dogicapixelbold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'DogicaPixel';
+  src: url('../fonts/dogicapixel.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dogica';
+  src: url('../fonts/dogicabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dogica';
+  src: url('../fonts/dogica.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
