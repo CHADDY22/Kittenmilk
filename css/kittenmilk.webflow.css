@@ -52,6 +52,7 @@
 
 .kittenmilk-logo {
   width: 300px;
+  display: block;
 }
 
 .dogica-small {
@@ -866,7 +867,9 @@
   }
 
   .kittenmilk-logo {
+    max-height: 100px;
     padding: 0;
+    display: block;
   }
 
   .dogica-small, .dogica-small.hide {
