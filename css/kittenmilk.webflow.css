@@ -44,10 +44,7 @@
   padding-top: 0;
   display: flex;
   position: static;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .kittenmilk-logo {
@@ -73,7 +70,7 @@
 }
 
 .background {
-  background-image: linear-gradient(rgba(255, 0, 139, .19), rgba(255, 0, 139, .19)), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
+  background-image: linear-gradient(#ff008b30, #ff008b30), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 105%;
@@ -149,10 +146,7 @@
   margin-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 10%;
-  bottom: auto;
-  left: 2%;
-  right: auto;
+  inset: 10% auto auto 2%;
 }
 
 .window-name-bar {
@@ -194,15 +188,12 @@
 .image-3 {
   mix-blend-mode: difference;
   position: absolute;
-  top: -51%;
-  bottom: auto;
-  left: auto;
-  right: -22%;
+  inset: -51% -22% auto auto;
 }
 
 .salon-mini-window {
   border: 2px solid var(--pink);
-  background-image: linear-gradient(rgba(255, 255, 255, .76), rgba(255, 255, 255, .76)), url('../images/flowers-leaves.gif');
+  background-image: linear-gradient(#ffffffc2, #ffffffc2), url('../images/flowers-leaves.gif');
   background-position: 0 0, 0 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -212,10 +203,7 @@
   margin-left: 0;
   padding-bottom: 20px;
   position: absolute;
-  top: auto;
-  bottom: 14%;
-  left: 11%;
-  right: auto;
+  inset: auto auto 14% 11%;
 }
 
 .image-4 {
@@ -258,10 +246,7 @@
   padding-bottom: 40px;
   display: none;
   position: absolute;
-  top: 10%;
-  bottom: auto;
-  left: auto;
-  right: 2%;
+  inset: 10% 2% auto auto;
 }
 
 .text-block-3 {
@@ -288,7 +273,7 @@
 .profile {
   border: 3px solid var(--pink);
   cursor: pointer;
-  background-image: linear-gradient(rgba(224, 0, 116, .37), rgba(224, 0, 116, .37)), url('../images/dg5atch-900fcdd9-f0c9-4f05-897d-0f228292175d.gif');
+  background-image: linear-gradient(#e000745e, #e000745e), url('../images/dg5atch-900fcdd9-f0c9-4f05-897d-0f228292175d.gif');
   background-position: 0 0, 50% 91%;
   background-size: auto, cover;
   flex-direction: column;
@@ -299,10 +284,7 @@
   padding-left: 10px;
   display: flex;
   position: absolute;
-  top: auto;
-  bottom: 3%;
-  left: auto;
-  right: 3%;
+  inset: auto 3% 3% auto;
 }
 
 .text-block-5 {
@@ -327,10 +309,7 @@
   padding-right: 0;
   display: none;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .div-block-4 {
@@ -338,10 +317,7 @@
   height: 80%;
   margin: auto;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .window-wrapper {
@@ -354,10 +330,7 @@
   margin: auto;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
   overflow: hidden;
 }
 
@@ -372,7 +345,7 @@
 }
 
 .window-wrapper.about-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/tumblr_39436902cd65290563f39ce4024001fd_7b2cc3a8_540.gif');
+  background-image: linear-gradient(#00000080, #00000080), url('../images/tumblr_39436902cd65290563f39ce4024001fd_7b2cc3a8_540.gif');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -535,10 +508,7 @@
 .image-10 {
   display: block;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: -2%;
+  inset: 0% -2% 0% auto;
   transform: rotate(23deg);
 }
 
@@ -566,10 +536,7 @@
 
 .image-12 {
   position: absolute;
-  top: auto;
-  bottom: 4%;
-  left: auto;
-  right: 3%;
+  inset: auto 3% 4% auto;
 }
 
 .text-span-2 {
@@ -609,10 +576,7 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .program-name {
@@ -642,10 +606,7 @@
   font-weight: 700;
   line-height: 90px;
   position: absolute;
-  top: 22%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 22% 0% auto;
 }
 
 .text-block-10 {
@@ -658,10 +619,7 @@
 
 .image-15 {
   position: absolute;
-  top: 51%;
-  bottom: auto;
-  left: auto;
-  right: 18%;
+  inset: 51% 18% auto auto;
 }
 
 .text-span-4 {
@@ -696,6 +654,10 @@
 .image-17 {
   flex: none;
   width: 50%;
+}
+
+.text-span-5 {
+  font-size: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -745,10 +707,7 @@
   }
 
   .image-15 {
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: auto;
+    inset: auto auto 0% 0%;
   }
 }
 
@@ -769,7 +728,7 @@
   }
 
   .background {
-    background-image: linear-gradient(rgba(255, 0, 221, .19), rgba(255, 0, 221, .19)), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
+    background-image: linear-gradient(#ff00dd30, #ff00dd30), url('../images/92eeed07ff13ca32a0b39ef72a26580a.gif');
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -842,10 +801,7 @@
     margin-left: 0;
     margin-right: 0;
     position: relative;
-    top: 5%;
-    bottom: auto;
-    left: auto;
-    right: auto;
+    inset: 5% auto auto;
   }
 
   .inner-frame {
@@ -860,10 +816,7 @@
     justify-content: center;
     margin-bottom: 10px;
     position: relative;
-    top: 2%;
-    bottom: auto;
-    left: 0%;
-    right: 0%;
+    inset: 2% 0% auto;
   }
 
   .kittenmilk-logo {
@@ -894,10 +847,7 @@
     padding-right: 0;
     display: none;
     position: absolute;
-    top: auto;
-    bottom: 35%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 35%;
   }
 
   .book-now {
@@ -932,10 +882,7 @@
     padding-right: 10px;
     text-decoration: none;
     position: absolute;
-    top: auto;
-    bottom: 2%;
-    left: -1%;
-    right: 0%;
+    inset: auto 0% 2% -1%;
   }
 
   .window-wrapper.salon-window {
@@ -1060,10 +1007,7 @@
   .image-15 {
     width: 35%;
     position: absolute;
-    top: auto;
-    bottom: 15%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 15% auto;
   }
 
   .image-17 {
